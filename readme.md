@@ -37,7 +37,7 @@ Um sistema web com front-end e back-end, permitindo aos usuários registrar e mo
 - **Repositório no GitHub:https://github.com/rafaelpmesquita/TP-ES-RAFAEL_MESQUITA
 - **GitHub Projects:https://github.com/users/rafaelpmesquita/projects/1/views/1
 
-##Planejamento
+# Planejamento
 
 ## Sprint TP1 - Workshop de Requisitos e Planejamento Inicial
 - **Entregas:**
