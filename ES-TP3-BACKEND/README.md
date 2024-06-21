@@ -41,7 +41,7 @@ Este √© um back-end desenvolvido em Node.js com Express, Sequelize, e autentica√
 - Node.js
 - Express
 - Sequelize
-- SQLite
+- Postgre
 - JSON Web Token (JWT)
 - bcryptjs
 - dotenv
