@@ -34,8 +34,10 @@ Um sistema web com front-end e back-end, permitindo aos usuários registrar e mo
   - Visualização de Dashboard
 
 ## GitHub e GitHub Projects
-- **Repositório no GitHub:** Público, contendo toda a documentação em markdown.
-- **GitHub Projects:** Utilizado para gerenciar o backlog do projeto, com colunas como "Project Backlog" para requisitos e "TODO" para atividades planejadas em cada sprint.
+- **Repositório no GitHub:https://github.com/rafaelpmesquita/TP-ES-RAFAEL_MESQUITA
+- **GitHub Projects:https://github.com/users/rafaelpmesquita/projects/1/views/1
+
+##Planejamento
 
 ## Sprint TP1 - Workshop de Requisitos e Planejamento Inicial
 - **Entregas:**
@@ -69,6 +71,3 @@ Um sistema web com front-end e back-end, permitindo aos usuários registrar e mo
   3. Código hospedado no repositório.
   4. Revisão final da documentação do repositório.
 
-## Ferramentas Utilizadas
-- **GitHub:** Para versionamento e gestão do código.
-- **GitHub Projects:** Para gerência de tarefas e planejamento ágil.
