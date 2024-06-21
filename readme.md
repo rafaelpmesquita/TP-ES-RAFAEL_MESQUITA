@@ -50,7 +50,7 @@ Um sistema web com front-end e back-end, permitindo aos usuários registrar e mo
   1. Arquitetura do projeto utilizando C4 model.
      - ![Diagrama de Container](Imagens/diagrama-de-container.jpg)
      - ![Diagrama de Contexto](Imagens/diagrama-de-contexto.jpg)
-     <!-- - ![Diagrama de Componentes](imagens/diagrama-de-componentes.jpg) -->
+     ![Diagrama de Componentes](imagens/diagrama-de-componentes.jpg)
   2. Documentação da arquitetura no repositório (tecnologias escolhidas, modelo arquitetural, justificativa).
      - ![Modelo Arquitetural](Imagens/modelo-arquitetural.jpg)
      - **Tecnologias:** 
