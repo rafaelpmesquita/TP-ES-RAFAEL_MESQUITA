@@ -23,7 +23,7 @@ Um sistema web com front-end e back-end, permitindo aos usuários registrar e mo
 4. Escalabilidade: capacidade de lidar com aumento no número de usuários e dados.
 
 ## Diagrama de Caso de Uso
-![Diagrama de Caso de Uso](imagens/diagrama-de-caso-de-uso.jpg)
+![Diagrama de Caso de Uso](Imagens/diagrama-de-caso-de-uso.jpg)
 
 - **Ator Principal:** Usuário
 - **Casos de Uso:**
@@ -46,11 +46,11 @@ Um sistema web com front-end e back-end, permitindo aos usuários registrar e mo
 ## Sprint TP2 - Projeto de Software e Plano de Testes
 - **Entregas:**
   1. Arquitetura do projeto utilizando C4 model.
-     - ![Diagrama de Container](imagens/diagrama-de-container.jpg)
-     - ![Diagrama de Contexto](imagens/diagrama-de-contexto.jpg)
+     - ![Diagrama de Container](Imagens/diagrama-de-container.jpg)
+     - ![Diagrama de Contexto](Imagens/diagrama-de-contexto.jpg)
      <!-- - ![Diagrama de Componentes](imagens/diagrama-de-componentes.jpg) -->
   2. Documentação da arquitetura no repositório (tecnologias escolhidas, modelo arquitetural, justificativa).
-     - ![Modelo Arquitetural](imagens/modelo-arquitetural.jpg)
+     - ![Modelo Arquitetural](Imagens/modelo-arquitetural.jpg)
      - **Tecnologias:** 
        1. **Frontend:** Vue.js + Typescript + axios + vuetify
           - Trabalho com as tecnologias e tenho facilidade
