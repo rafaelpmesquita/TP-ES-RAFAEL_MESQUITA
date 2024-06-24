@@ -62,6 +62,120 @@ Um sistema web com front-end e back-end, permitindo aos usuários registrar e mo
           - Banco de dados relacional relativamente fácil de usar
 
   3. Página de planos de testes com casos de teste para cada caso de uso.
+    ### Caso de Uso: Login
+
+#### Objetivo
+Verificar se o sistema permite que usuários façam login com sucesso utilizando credenciais válidas.
+
+#### Casos de Teste
+
+1. **CT-01:** Testar login com usuário e senha válidos.
+   - **Pré-condição:** Usuário cadastrado no sistema.
+   - **Passos:**
+     1. Acessar a página de login.
+     2. Inserir usuário e senha válidos.
+     3. Clicar em "Entrar".
+   - **Resultado esperado:** Usuário é redirecionado para a página inicial do sistema.
+
+2. **CT-02:** Testar login com usuário inválido.
+   - **Pré-condição:** Usuário não cadastrado no sistema.
+   - **Passos:**
+     1. Acessar a página de login.
+     2. Inserir usuário inválido e senha válida.
+     3. Clicar em "Entrar".
+   - **Resultado esperado:** Exibir mensagem de erro informando que o usuário não existe.
+
+3. **CT-03:** Testar login com senha inválida.
+   - **Pré-condição:** Usuário cadastrado no sistema.
+   - **Passos:**
+     1. Acessar a página de login.
+     2. Inserir usuário válido e senha inválida.
+     3. Clicar em "Entrar".
+   - **Resultado esperado:** Exibir mensagem de erro informando que a senha está incorreta.
+
+### Caso de Uso: Cadastro
+
+#### Objetivo
+Verificar se o sistema permite que novos usuários se cadastrem corretamente.
+
+#### Casos de Teste
+
+1. **CT-04:** Testar cadastro de novo usuário com informações válidas.
+   - **Pré-condição:** Usuário não cadastrado no sistema.
+   - **Passos:**
+     1. Acessar a página de cadastro.
+     2. Preencher formulário com informações válidas.
+     3. Clicar em "Cadastrar".
+   - **Resultado esperado:** Usuário é cadastrado com sucesso e redirecionado para a página de login.
+
+2. **CT-05:** Testar cadastro com campos obrigatórios não preenchidos.
+   - **Pré-condição:** Nenhuma.
+   - **Passos:**
+     1. Acessar a página de cadastro.
+     2. Deixar um ou mais campos obrigatórios em branco.
+     3. Clicar em "Cadastrar".
+   - **Resultado esperado:** Exibir mensagens de erro indicando os campos obrigatórios que faltam preenchimento.
+
+### Caso de Uso: Registro de Ações Sustentáveis
+
+#### Objetivo
+Verificar se o sistema permite que usuários registrem suas ações sustentáveis corretamente.
+
+#### Casos de Teste
+
+1. **CT-06:** Testar registro de uma ação sustentável válida.
+   - **Pré-condição:** Usuário logado no sistema.
+   - **Passos:**
+     1. Acessar a funcionalidade de registro de ação sustentável.
+     2. Preencher formulário com informações válidas.
+     3. Clicar em "Registrar".
+   - **Resultado esperado:** A ação sustentável é registrada com sucesso.
+
+2. **CT-07:** Testar registro de uma ação sem preencher todos os campos obrigatórios.
+   - **Pré-condição:** Usuário logado no sistema.
+   - **Passos:**
+     1. Acessar a funcionalidade de registro de ação sustentável.
+     2. Deixar um ou mais campos obrigatórios em branco.
+     3. Clicar em "Registrar".
+   - **Resultado esperado:** Exibir mensagens de erro indicando os campos obrigatórios que faltam preenchimento.
+
+### Caso de Uso: Visualização de Estatísticas
+
+#### Objetivo
+Verificar se o sistema exibe corretamente as estatísticas das ações sustentáveis registradas.
+
+#### Casos de Teste
+
+1. **CT-08:** Testar exibição de estatísticas com dados válidos.
+   - **Pré-condição:** Usuário logado no sistema e ações sustentáveis registradas.
+   - **Passos:**
+     1. Acessar a funcionalidade de visualização de estatísticas.
+     2. Verificar se as estatísticas são exibidas corretamente conforme esperado.
+
+2. **CT-09:** Testar exibição de estatísticas sem dados registrados.
+   - **Pré-condição:** Usuário logado no sistema sem ações sustentáveis registradas.
+   - **Passos:**
+     1. Acessar a funcionalidade de visualização de estatísticas.
+     2. Verificar se é exibida uma mensagem indicando a ausência de dados.
+
+### Caso de Uso: Visualização de Dashboard
+
+#### Objetivo
+Verificar se o sistema exibe corretamente o dashboard com visão geral das atividades.
+
+#### Casos de Teste
+
+1. **CT-10:** Testar exibição do dashboard com dados válidos.
+   - **Pré-condição:** Usuário logado no sistema e ações sustentáveis registradas.
+   - **Passos:**
+     1. Acessar a funcionalidade de visualização do dashboard.
+     2. Verificar se as informações são apresentadas corretamente conforme o design especificado.
+
+2. **CT-11:** Testar exibição do dashboard sem dados registrados.
+   - **Pré-condição:** Usuário logado no sistema sem ações sustentáveis registradas.
+   - **Passos:**
+     1. Acessar a funcionalidade de visualização do dashboard.
+     2. Verificar se é exibida uma mensagem indicando a ausência de dados.
   4. Atualização do GitHub Projects com o planejamento para o próximo sprint.
 
 ## Sprint TP3 - Entrega Final
